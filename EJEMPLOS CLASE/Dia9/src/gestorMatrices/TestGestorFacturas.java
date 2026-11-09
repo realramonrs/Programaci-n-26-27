@@ -7,7 +7,7 @@ public class TestGestorFacturas {
 
 		//Creamos un gestor
 		GestorFacturas gf = new GestorFacturas(20);
-		
+				
 		//Añadir Facturas
 		Factura f1 = new Factura("QW23",450,"Mercadona");
 		Factura f2 = new Factura("P98Y",2500,"Alcampo");

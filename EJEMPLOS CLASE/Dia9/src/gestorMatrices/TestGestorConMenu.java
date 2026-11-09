@@ -52,7 +52,7 @@ public class TestGestorConMenu {
 					break;
 				case 1:
 					
-					String tipoFactura = IO.readln("Que tipo de factura desea añadir: Nacional/Internacional/Electronica");
+					String tipoFactura = IO.readln("Que tipo de factura desea añadir: Nacional/Internacional/Electronica ");
 					
 					switch(tipoFactura) {
 						case "Nacional":
