@@ -25,13 +25,13 @@ public class MetodoPago {
 				
 				String idLocal="MCST-";
 				for(int i = 0;i<17;i++){
-					char letra = letras[generador.nextInt(13)];
+					char letra = letras[generador.nextInt(12)];
 					idLocal+=letra;
 				}
 				return idLocal;
 	}
 	
-	public void procesarPago() {
+	public void procesarPago(float cantidad) {
 		this.precioFinal = 0;
 	}
 	
@@ -43,6 +43,8 @@ public class MetodoPago {
 		
 		System.out.println(mensaje);
 	}
+	
+	
 	
 	
 	
